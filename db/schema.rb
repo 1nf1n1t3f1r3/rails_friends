@@ -10,13 +10,8 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_03_05_131324) do
+ActiveRecord::Schema[8.1].define(version: 2026_03_05_133824) do
   create_table "friends", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "friends_lists", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.string "email"
     t.string "first_name"
